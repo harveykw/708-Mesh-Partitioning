@@ -27,3 +27,5 @@ Two approaches were explored:
 
 1. Distributing mesh elements while keeping the vertex-coordinate list available to each process
 2. Distributing both mesh elements and vertex-coordinate data across processes
+
+However, for the scope of the assignment, it was simpler to have each process hold onto the vertex-coordinate list.
